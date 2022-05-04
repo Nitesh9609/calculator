@@ -26,37 +26,36 @@ const Calculator = () => {
   return (
    <>
         <div className='calculator'>
-        <div className='single-row'>
-            <input className='input' type='text' value={input} onChange={handleOnChange}/>
+            <div className='single-row'>
+                <input className='input' type='text' value={input} onChange={handleOnChange}/>
 
-            <button className='operations' onClick={handleOnClear}>clear</button> 
-            <button className='button' onClick={numberHandler}>0</button> 
-            <button className='button'onClick={equal}>=</button>
-            <button className='operations' onClick={numberHandler}>+</button>
-        
-
-        
-            <button className='button' onClick={numberHandler}>7</button>
-            <button className='button' onClick={numberHandler}>8</button>
-            <button className='button' onClick={numberHandler}>9</button>
-            <button className='operations' onClick={numberHandler}>/</button>
-       
-
-        
-            <button className='button' onClick={numberHandler}>4</button>
-            <button className='button' onClick={numberHandler}>5</button>
-            <button className='button' onClick={numberHandler}>6</button>
-            <button className='operations' onClick={numberHandler}>*</button>
-
-        
-
-        
-            <button className='button' onClick={numberHandler}>1</button>
-            <button className='button' onClick={numberHandler}>2</button>
-            <button className='button' onClick={numberHandler}>3</button> 
-            <button className='operations' onClick={numberHandler}>-</button>
-        </div>
+                <button className='operations' onClick={handleOnClear}>clear</button> 
+                <button className='button' onClick={numberHandler}>0</button> 
+                <button className='button' onClick={equal}>=</button>
+                <button className='operations' onClick={numberHandler}>+</button>
             
+
+            
+                <button className='button' onClick={numberHandler}>7</button>
+                <button className='button' onClick={numberHandler}>8</button>
+                <button className='button' onClick={numberHandler}>9</button>
+                <button className='operations' onClick={numberHandler}>÷</button>
+        
+
+            
+                <button className='button' onClick={numberHandler}>4</button>
+                <button className='button' onClick={numberHandler}>5</button>
+                <button className='button' onClick={numberHandler}>6</button>
+                <button className='operations' onClick={numberHandler}>*</button>
+
+            
+
+                <button className='button' onClick={numberHandler}>1</button>
+                <button className='button' onClick={numberHandler}>2</button>
+                <button className='button' onClick={numberHandler}>3</button> 
+                <button className='operations' onClick={numberHandler}>-</button>
+            </div>
+                
         </div>
    </>
   )

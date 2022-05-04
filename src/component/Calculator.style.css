@@ -1,6 +1,6 @@
 .calculator{
     text-align: center;
-    margin: 13vw;
+    margin: 20vh 0 0 40vw;
     
     
 }
@@ -8,9 +8,6 @@
     display: grid;
     grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
     
-    /* position: relative;
-    left: 21.6vw;
-     */
 }
 
 input{
